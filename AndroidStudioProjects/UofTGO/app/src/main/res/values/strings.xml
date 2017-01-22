@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">UofT GO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_selection_screen">SelectionScreen</string>
+    <string name="settings">Settings</string>
+    <string name="yellow">Yellow Team</string>
+    <string name="blue">Blue Team</string>
+    <string name="cont">Continue</string>
+    <string name="name">Name</string>
+    <string name="title_activity_game_screen">Map</string>
+    <string name="title_activity_instruction_screen">InstructionScreen</string>
+    <string name="instructions1">1) Select your name and your team</string>
+    <string name="instructions2">2) Shake your device to get started</string>
+    <string name="instructions3">3) The map will show your location as a blue dot and the buildings
+        location as a red pointer</string>
+    <string name="instructions4">4) Your objective is to capture all the buildings before the other
+        team in the time limit of a week</string>
+    <string name="instructions5">5) To capture a building, you need to be in the range of the
+        building (radius of 50 meters)</string>
+    <string name="instructions6">6) Once you capture the building, it will turn into the color of
+        your team, and it will be locked by a riddle so that the other team does not steal it easily</string>
+    <string name="instructions7">7) If you want to capture a building that is already captured by
+        the other team, you will have to follow step 5, and solve a riddle</string>
+    <string name="instructions8">8) That is all! Have Fun!</string>
+</resources>

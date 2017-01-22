@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.hvdevelopers.uoftgo.InstructionScreen">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:textSize="20dp"
+                    android:text="@string/instructions1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:id="@+id/instructions1"
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignEnd="@+id/textView4" />
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/instructions2"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/instructions2"
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/instructions1"
+                    android:layout_alignEnd="@+id/instructions1" />
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#FFF"
+                    android:text="@string/instructions3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/instructions3"
+                    android:layout_below="@+id/instructions2"
+                    android:layout_alignStart="@+id/instructions1" />
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:text="@string/instructions4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/instructions4"
+                    android:layout_below="@+id/instructions3"
+                    android:layout_alignStart="@+id/instructions3" />
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:text="@string/instructions5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/instructions4"
+                    android:layout_alignStart="@+id/instructions4"
+                    android:id="@+id/instructions5"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:text="@string/instructions6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/instructions5"
+                    android:layout_alignStart="@+id/instructions5"
+                    android:id="@+id/instructions6" />
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:text="@string/instructions7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/instructions6"
+                    android:layout_alignStart="@+id/instructions6"
+                    android:id="@+id/instructions7" />
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#FFF"
+                    android:text="@string/instructions8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/instructions8"
+                    android:layout_below="@+id/instructions7"
+                    android:layout_alignStart="@+id/instructions2" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:text="Instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="50dp"
+            android:textColor="#FFF"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

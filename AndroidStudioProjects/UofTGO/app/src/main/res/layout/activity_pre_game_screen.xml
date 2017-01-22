@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pre_game_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hvdevelopers.uoftgo.PreGameScreen"
+    android:background="@color/cast_expanded_controller_background_color">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/username"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/numMembers"
+        android:id="@+id/numTeamBuild"
+        android:textSize="25dp"
+        android:layout_alignRight="@+id/lblteambuild"
+        android:layout_alignEnd="@+id/lblteambuild"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_toEndOf="@+id/lblmembers"
+        android:layout_toRightOf="@+id/lblmembers"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:text="Captured by you"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblyoubuild"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignBaseline="@+id/lblteambuild"
+        android:layout_alignBottom="@+id/lblteambuild"
+        android:layout_toRightOf="@+id/lblteambuild"
+        android:layout_toEndOf="@+id/lblteambuild"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numYouBuild"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignBaseline="@+id/numTeamBuild"
+        android:layout_alignBottom="@+id/numTeamBuild"
+        android:layout_alignRight="@+id/lblyoubuild"
+        android:layout_alignEnd="@+id/lblyoubuild"
+        android:layout_alignLeft="@+id/lblyoubuild"
+        android:layout_alignStart="@+id/lblyoubuild"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/numMembers"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_above="@+id/lblteambuild"
+        android:layout_alignLeft="@+id/lblmembers"
+        android:layout_alignStart="@+id/lblmembers"
+        android:layout_alignRight="@+id/lblmembers"
+        android:layout_alignEnd="@+id/lblmembers"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:text="Team Statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#FFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:text="Members"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        android:id="@+id/lblmembers"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="#FFF"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/lblteambuild" />
+
+    <TextView
+        android:text="Team Buildings"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblteambuild"
+        android:layout_width="60dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFF"
+        android:layout_alignBaseline="@+id/lblmembers"
+        android:layout_alignBottom="@+id/lblmembers"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Shake device to begin!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:layout_marginBottom="81dp"
+        android:layout_above="@+id/username"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
