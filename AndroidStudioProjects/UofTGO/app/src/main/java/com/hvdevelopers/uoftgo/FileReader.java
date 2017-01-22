@@ -21,6 +21,8 @@ public class FileReader {
     public static void main(String [] args) {
 
         Scanner in;
+
+        System.out.println("hello world");
         try {
             in = new Scanner(new File("C:\\Users\\Harsh\\AndroidStudioProjects\\UofTGO\\app\\src\\main\\java\\com\\hvdevelopers\\uoftgo\\buildings.txt"));
             while (in.hasNextLine()) {
